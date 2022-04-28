@@ -1,0 +1,33 @@
+/* .navbar{
+background-color: rgb(77, 77, 77) !important;
+} */
+
+.nav-item:hover{
+    color: rgb(161, 255, 246);
+}
+
+.nav-item{
+    color: rgb(0, 0, 0);
+    margin: 6px 20px;
+    font-size: 1.2rem;
+}
+
+.navbar-nav{
+    align-items:center ;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+.insta{
+    width: 25px;
+}
+
+.navbar-brand{
+    margin: 3px 20px;
+}
+
+.logo-text{
+    margin: 0px 10px;
+}

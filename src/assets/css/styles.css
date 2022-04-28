@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*     font-family: 'Bebas Neue', cursive;
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+
+body {
+    background-color: linear-gradient(18deg, rgb(0, 0, 0) 0%, rgb(57, 70, 68) 100%); 
+    color: aliceblue;
+}
+
+li,a{
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1{
+    font-family: 'Comfortaa', cursive;
+}
+
+a:link{
+    text-decoration: none;
+}

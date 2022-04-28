@@ -1,0 +1,13 @@
+.banner{
+    color: rgb(16, 16, 16);
+    height: 100vh;
+}
+
+.banner h1 {
+    font-size: 6rem;
+}
+
+.home2{
+    background: rgb(147, 245, 252);
+    height: 100vh;
+}
