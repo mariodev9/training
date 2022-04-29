@@ -1,13 +1,31 @@
 .banner{
     color: rgb(16, 16, 16);
-    height: 100vh;
+    padding-top: 150px;  
 }
 
 .banner h1 {
-    font-size: 6rem;
+    font-size: 4.5rem;
 }
 
-.home2{
-    background: rgb(147, 245, 252);
-    height: 100vh;
+.title-row {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+    color: rgb(9, 56, 61);
+}
+
+.gradient {
+    background: linear-gradient(to right, #208989 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.athlete-container{
+    display: flex;
+    justify-content: center;
+}
+.athlete-image {
+    width: 400px;
+    margin-top: 50px;
+
 }

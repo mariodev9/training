@@ -5,17 +5,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
 /* font-family: 'Comfortaa', cursive; */
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+/* font-family: 'Source Sans Pro', sans-serif; */
+
 body {
     background-color: linear-gradient(18deg, rgb(0, 0, 0) 0%, rgb(57, 70, 68) 100%); 
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 li,a{
     font-family: 'Bebas Neue', cursive;
 }
 
-h1{
-    font-family: 'Comfortaa', cursive;
+h1, h2, h3, h4, span{
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 a:link{
