@@ -1,0 +1,16 @@
+.description{
+    padding: 100px 20px;
+}
+
+
+.teacher-container{
+    border: solid black 1px;
+    padding: 20px;
+}
+
+.teacher {
+    border: solid black 1px;
+    background-color: aquamarine;
+    height: 350px;
+    padding: 20px;
+}

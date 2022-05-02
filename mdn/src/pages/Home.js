@@ -1,9 +1,9 @@
 import React from "react";
 import "../assets/css/Home.css";
 import { motion } from "framer-motion";
-import atlhete from "../assets/static/Atlhete.png";
-import Training from "../components/Training";
-import Button from "../components/Button/Button";
+import Categories from "../components/Home/Categories";
+import Button from "../components/Home/Button/Button";
+import AthleteImg from "../components/Home/AthleteImg";
 
 export default function Home() {
   const letterAnimation = {
@@ -45,24 +45,11 @@ export default function Home() {
               <Button />
             </motion.div>
             <div className="col-md-4 athlete-container">
-              <motion.img
-                className="athlete-image"
-                src={atlhete}
-                alt=""
-                // FALTA INITIAL
-                animate={{
-                  x: [300, 0],
-                  opacity: [0, 1],
-                  transition: {
-                    ease: [0.6, 0.01, -0.05, 0.95],
-                    duration: 1,
-                  },
-                }}
-              />
+              <AthleteImg />
             </div>
           </div>
         </header>
-        <Training />
+        <Categories />
       </motion.div>
     </>
   );

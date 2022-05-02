@@ -15,7 +15,7 @@ export default function Nav() {
             duration: 1,
           },
         }}
-        class="navbar navbar-expand-lg navbar-light bg-light "
+        className="navbar navbar-expand-lg navbar-light bg-light "
       >
         <Link className="navbar-brand" to={"/"}>
           <svg
@@ -46,7 +46,7 @@ export default function Nav() {
           <span className="logo-text">Entrenamiento</span>
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -54,23 +54,23 @@ export default function Nav() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-          <ul class="navbar-nav">
-            <Link to={"/About"} class="nav-item">
+        <div className="collapse navbar-collapse " id="navbarNav">
+          <ul className="navbar-nav">
+            <Link to={"/About"} className="nav-item">
               Quienes somos
             </Link>
-            <Link to={"/"} class="nav-item">
+            <Link to={"/"} className="nav-item">
               Entrenamiento
             </Link>
-            <Link to={"/Horarios"} class="nav-item">
+            <Link to={"/Horarios"} className="nav-item">
               Horarios
             </Link>
-            <Link to={"/Contact"} class="nav-item">
+            <Link to={"/Contact"} className="nav-item">
               Contact
             </Link>
-            <Link to={"/instagram"} class="nav-item">
+            <Link to={"/instagram"} className="nav-item">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -79,7 +79,7 @@ export default function Nav() {
                 fill="none"
                 stroke="black"
               >
-                <circle cx="12" cy="12" r="5.75" stroke-width="2.5" />
+                <circle cx="12" cy="12" r="5.75" strokeWidth="2.5" />
                 <circle cx="18.5" cy="5.5" r="1.5" fill="black" />
                 <rect
                   x="1.25"
@@ -87,7 +87,7 @@ export default function Nav() {
                   width="21.5"
                   height="21.5"
                   rx="3.75"
-                  stroke-width="2.5"
+                  strokeWidth="2.5"
                 />
               </svg>
             </Link>
