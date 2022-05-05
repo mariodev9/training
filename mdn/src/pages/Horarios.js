@@ -1,16 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../assets/css/Horarios.css";
+import Schedule from "../components/Schedule";
 
 export default function Horarios() {
   return (
     <motion.div
-      className="hours"
+      className="container hours"
       initial={{ opacity: 0, transition: 1 }}
       animate={{ opacity: 1 }}
-      exit={{ x: window.innerWidth, transition: 0.3 }}
+      exit={{ opacity: 0 }}
     >
-      <h1>Horarios</h1>
+      <motion.h1>Horarios</motion.h1>
+      <Schedule />
     </motion.div>
   );
 }

@@ -27,7 +27,7 @@ export default function Home() {
         className="container"
         initial={{ opacity: 0, transition: 1 }}
         animate={{ opacity: 1 }}
-        exit={{ x: window.innerWidth, transition: 0.3 }}
+        exit={{ opacity: 0 }}
       >
         {/* COMPONENT HEADER */}
         <header>

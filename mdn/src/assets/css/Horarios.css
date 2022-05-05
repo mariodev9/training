@@ -1,5 +1,26 @@
 .hours{
-    background-color: yellow;
-    height: 1500px;
-    
+    border-radius: 10px;
+    margin-top: 80px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+    overflow: scroll !important;
+}
+.table-schedule{
+    margin-top: 30px;
+}
+.thead-schedule{
+    color: rgb(255, 255, 255);
+
+}
+
+th{
+    background-color: #208989;
+}
+ 
+tbody{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.1rem;
+}
+
+.body-schedule th{
+    border-radius: 10px;
 }

@@ -25,17 +25,22 @@
 }
 
 .category-container h3 {
+    margin-top: 30px;
     color: rgb(79, 79, 79);
     font-size: 1.3rem;
 }
 
 .category{
-    height: 230px;
-    width: 230px;
+    height: 200px;
+    width: 200px;
     margin-bottom: 15px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 5px 5px 5px rgb(123, 123, 123);
+}
+
+.category img {
+    width: 90px;
 }
