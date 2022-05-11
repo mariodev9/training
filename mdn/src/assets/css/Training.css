@@ -2,26 +2,19 @@
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-
 }
 
 .training h2 {
     color: rgb(66, 66, 66);
     margin: 85px 0px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
 }
 
-
-.categories {
-    border: 1px solid black;
-}
-
-.category-container{
-    display: flex;
-    flex-direction: column;   
-    text-align: center; 
-    align-items: center;    
+.category-container{ 
     padding: 40px; 
+    display: flex;
+    justify-content: center;
 }
 
 .category-container h3 {
@@ -38,9 +31,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 5px rgb(123, 123, 123);
 }
 
-.category img {
-    width: 90px;
+
+
+.category-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

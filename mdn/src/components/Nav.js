@@ -68,7 +68,7 @@ export default function Nav() {
               Horarios
             </Link>
             <Link to={"/Contact"} className="nav-item">
-              Contact
+              Contacto
             </Link>
             <Link to={"/instagram"} className="nav-item">
               <svg

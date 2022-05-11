@@ -1,10 +1,11 @@
 import React from "react";
+import "../assets/css/Horarios.css";
 
 export default function Schedule() {
   return (
     <>
-      <table class="table table-schedule">
-        <thead class="thead-schedule  table-dark">
+      <table class="table table-striped table-schedule">
+        <thead className="thead-schedule">
           <tr>
             <th scope="col">#</th>
             <th scope="col">Lunes</th>
@@ -15,7 +16,7 @@ export default function Schedule() {
           </tr>
         </thead>
         <tbody className="body-schedule">
-          <tr>
+          <tr className="hora">
             <th scope="row">7:00 AM</th>
             <td>Entrenamiento General</td>
             <td></td>
@@ -23,7 +24,7 @@ export default function Schedule() {
             <td>Atletismo</td>
             <td></td>
           </tr>
-          <tr>
+          <tr className="hora">
             <th scope="row">9:00 AM</th>
             <td></td>
             <td>Entrenamiento General</td>
@@ -31,7 +32,7 @@ export default function Schedule() {
             <td></td>
             <td>Entrenamiento sobrepeso</td>
           </tr>
-          <tr>
+          <tr className="hora">
             <th scope="row">11:00 AM</th>
             <td></td>
             <td>Entrenamiento sobrepeso</td>
@@ -39,7 +40,7 @@ export default function Schedule() {
             <td></td>
             <td></td>
           </tr>
-          <tr>
+          <tr className="hora">
             <th scope="row">15:00 PM</th>
             <td>Atletismo</td>
             <td></td>
@@ -47,7 +48,7 @@ export default function Schedule() {
             <td>Entrenamiento General</td>
             <td></td>
           </tr>
-          <tr>
+          <tr className="hora">
             <th scope="row">17:00 PM</th>
             <td></td>
             <td></td>

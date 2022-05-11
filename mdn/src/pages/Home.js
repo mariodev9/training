@@ -16,7 +16,7 @@ export default function Home() {
       opacity: 1,
       transition: {
         ease: [0.6, 0.01, -0.05, 0.95],
-        duration: 1.5,
+        duration: 1.7,
       },
     },
   };
@@ -25,7 +25,7 @@ export default function Home() {
     <>
       <motion.div
         className="container"
-        initial={{ opacity: 0, transition: 1 }}
+        initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
       >
@@ -40,7 +40,7 @@ export default function Home() {
             >
               <div className="gradient">
                 <h1>Forma parte de MDN</h1>
-                <h1>Sé un atleta</h1>
+                <h1>Viví mejor</h1>
               </div>
               <Button />
             </motion.div>

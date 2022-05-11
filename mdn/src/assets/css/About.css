@@ -1,16 +1,33 @@
 .description{
     padding: 100px 20px;
+    margin-top: 35px;
+
 }
 
 
-.teacher-container{
-    border: solid black 1px;
+.teachers-container{
     padding: 20px;
+}
+
+.teachers-container h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #222;
 }
 
 .teacher {
-    border: solid black 1px;
-    background-color: aquamarine;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 35px;
     height: 350px;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 8px #330867;
+    margin-top: 35px;
+}
+
+.teacher img {
+    position: relative;
+    height: 300px;
+    bottom: -29px;
 }

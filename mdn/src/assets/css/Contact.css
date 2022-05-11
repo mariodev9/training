@@ -1,4 +1,36 @@
 .contact-section{
-    background-color: brown;
     height: 1500px;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin: 130px 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contact-section h4 {
+    text-align: center;
+}
+
+.form-control{
+    border: 2px solid black;
+    box-shadow: 5px 5px #330867;
+    margin: 30px 0px;
+}
+
+.ubication {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ubication h4 {
+    margin-bottom: 25px;
+}
+
+.map {
+    box-shadow: 5px 5px #330867;
+    border-radius: 10px;
+
 }

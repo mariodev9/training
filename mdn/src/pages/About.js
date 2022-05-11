@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../assets/css/About.css";
+import Teacher from "../components/About/Teacher";
+// import imagenes de profesores y pasar como props
 
 export default function About() {
   const list = {
@@ -55,14 +57,10 @@ export default function About() {
               eaque illum, sed, blanditiis cumque.
             </motion.p>
           </div>
-          <div className="col-md-8 teacher-container">
-            <motion.div className="row" variants={child}>
-              <div className="col-md-6 ">
-                <div className="teacher"></div>
-              </div>
-              <div className="col-md-6 ">
-                <div className="teacher"></div>
-              </div>
+          <div className="col-md-8 teachers-container">
+            <motion.div className="row">
+              <Teacher variants={child} />
+              <Teacher variants={child} />
             </motion.div>
           </div>
         </motion.div>

@@ -25,6 +25,10 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    color: #222;
+}
+
 a:link{
     text-decoration: none;
 }
