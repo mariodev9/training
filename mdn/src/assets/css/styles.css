@@ -25,10 +25,15 @@ h1 {
     font-weight: 900;
 }
 
-h2 {
+h2,h3,h4 {
     color: #222;
 }
 
 a:link{
     text-decoration: none;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
 }

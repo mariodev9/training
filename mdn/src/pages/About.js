@@ -1,8 +1,7 @@
-import React from "react";
 import { motion } from "framer-motion";
 import "../assets/css/About.css";
 import Teacher from "../components/About/Teacher";
-// import imagenes de profesores y pasar como props
+import ImageGallery from "../components/About/ImageGallery";
 
 export default function About() {
   const list = {
@@ -47,6 +46,7 @@ export default function About() {
           variants={list}
           initial="hidden"
           whileInView="show"
+          viewport={{ once: true }}
         >
           <div className="col-md-4 description">
             <motion.h2 variants={child}>Hola, somos MDN.</motion.h2>
@@ -64,7 +64,8 @@ export default function About() {
             </motion.div>
           </div>
         </motion.div>
-        <div className="teacher"></div>
+        {/* <Carrousel /> */}
+        <ImageGallery />
       </motion.div>
     </section>
   );

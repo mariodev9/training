@@ -1,8 +1,9 @@
 .training {
     margin-top: 100px;
-    display: flex;
-    flex-direction: column;
 }
+
+/* .categories {
+} */
 
 .training h2 {
     color: rgb(66, 66, 66);
@@ -11,32 +12,29 @@
     text-align: center;
 }
 
-.category-container{ 
-    padding: 40px; 
-    display: flex;
-    justify-content: center;
-}
-
-.category-container h3 {
-    margin-top: 30px;
-    color: rgb(79, 79, 79);
-    font-size: 1.3rem;
-}
 
 .category{
-    height: 200px;
-    width: 200px;
-    margin-bottom: 15px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(0deg, #40C5C6 0%, #1ABB94 100%);
+    margin: 10px;
+    box-shadow: 5px 5px 15px  rgba(39, 39, 39, 0.335);
+    border-radius: 7px;
 }
 
 
+.category-icon{
+    margin-top: 25px;
+    height: 70px;
+}
 
-.category-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.category-title{
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.category-info {
+    padding: 0px;
+}
+
+.travel-description{
+    margin-bottom: 100px;
 }

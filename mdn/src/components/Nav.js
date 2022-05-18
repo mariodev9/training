@@ -61,8 +61,8 @@ export default function Nav() {
             <Link to={"/About"} className="nav-item">
               Quienes somos
             </Link>
-            <Link to={"/"} className="nav-item">
-              Entrenamiento
+            <Link to={"/Entrenamientos"} className="nav-item">
+              Entrenamientos
             </Link>
             <Link to={"/Horarios"} className="nav-item">
               Horarios
@@ -70,7 +70,7 @@ export default function Nav() {
             <Link to={"/Contact"} className="nav-item">
               Contacto
             </Link>
-            <Link to={"/instagram"} className="nav-item">
+            {/* <Link to={"/instagram"} className="nav-item">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -90,7 +90,7 @@ export default function Nav() {
                   strokeWidth="2.5"
                 />
               </svg>
-            </Link>
+            </Link> */}
           </ul>
         </div>
       </motion.nav>

@@ -33,6 +33,10 @@ tbody{
 } */
 
 .hora th{
-    padding-right: 10px;
+    margin-left: 30px;
     border-radius: 10px;
+}
+
+#schedule-icon{
+    width: 50px;
 }
